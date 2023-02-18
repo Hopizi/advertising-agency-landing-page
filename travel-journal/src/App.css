@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #23252C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-site {
+    width: 550px;
+    height: 705px;
+    background-color: white;
+}
+
+.header {
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.header-text {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+
+.image-container {
+    width: 125px;
+    height: 170px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.journal-entry {
+    margin: 0 40px;
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.journal-info {
+    margin: 25px 0 0 19px;
+}
+
+.journal-country {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    color:  #2B283A;
+}
+
+.journal-map {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 12px;
+}
+
+.journal-map a {
+    color: #918E9B;
+}
+
+.journal-location {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    padding: 7px 0;
+}
+
+.journal-date {
+    font-weight: 700;
+    font-size: 10.24px;
+    color: #2B283A;
+    line-height: 12px;
+    padding-bottom: 9px;
+}
+
+.journal-text {
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 15px;
+    color: #2B283A;
+}
+
+.locate {
+    color: #F55A5A;
+    width: 7px;
+    height: 9.55px;
+}
+
+.world {
+    width: 24px;
+    height: 24px;
+}
+
+
+

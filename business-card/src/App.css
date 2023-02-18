@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-background {
+    height: 100vh;
+    width: 550px;
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card {
+    width: 350px;
+    height: 600px;
+    background-color: #1A1B21;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.About {
+    text-align: center;
+    color: white;
+    padding: 0 23px;
+}
+
+.About h1 {
+    font-size: 25px;
+}
+
+.About h3 {
+    font-size: 13px;
+    color: #F3BF99;
+}
+
+.About h4 {
+    font-size: 10px;
+}
+
+.About h1, h3, h4 {
+    padding: 3px;
+}
+
+.btn {
+    margin-top: -9px;
+}
+
+.btn button {
+    margin: 16px 9px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn .email {
+    padding: 9px 29px;
+    font-size: 14px;
+}
+.btn .linkedln {
+    padding: 9px 29px;
+    background-color: #5093E2;
+    color: #fff;
+    font-size: 14px;
+}
+
+.link-logo {
+    padding-right: 9px;
+}
+
+.sec-abt {
+    padding: 0 23px;
+}
+
+.sec-abt h2 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+
+.sec-abt p {
+    font-size: 10px;
+    color: #fff;
+    line-height: 15px;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons li {
+    padding: 20px;
+}
+
+.socials {margin-top: 10px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
